@@ -12,6 +12,8 @@ A api foi construída utilizando Node js como servidor backend e Mongo DB como b
 
 #### Rotas
 A Api foi hospedada **Heroku** e está rodando no endpoint `https://desafio-zoox.herokuapp.com`.
+
+
 Todas as rotas necessitam obrigatoriamente de **dois** parâmetros no header.
 
 *Authorization :*  `Api Token`.
@@ -21,7 +23,6 @@ Todas as rotas necessitam obrigatoriamente de **dois** parâmetros no header.
 ```sh
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjI4OGMyOTU3NGI0NWQ2NzJhNTA1N2QiLCJzZWNyZXRLZXkiOiJiMmRmNDI4Yjk5MjlkM2FjZTdjNTk4YmJmNGU0OTZiMiIsIm5vdyI6IjIwMjAtMDgtMzBUMjM6Mjc6MTkuODM4WiIsImlhdCI6MTU5ODgzMDAzOX0.SwO3HaAxIcRDt168w3eL-RRC4OFArTd3LfHXgyA5M-s
 ```
-A
 
 Todos os parâmetros marcados com `*` são obrigatórios.
 
