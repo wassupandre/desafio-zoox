@@ -1,0 +1,250 @@
+{
+	"info": {
+		"_postman_id": "6fe8c9ad-f4da-4d56-858c-21ee58dc1c7e",
+		"name": "desafio-zoox",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cities",
+			"item": [
+				{
+					"name": "Get cities",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/cities",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create city",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"String\",\n    \"stateId\": \"String\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cities/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cities",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update city",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": \"String\",\n    \"name\": \"String\",\n    \"stateId\": \"String\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/cities/update",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"cities",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete city",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/states/delete/id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"states",
+								"delete",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "states",
+			"item": [
+				{
+					"name": "Get states",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/states",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"states"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create state",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"String\",\n    \"abbreviation\": \"String\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/states/create",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"states",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update state",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\":\"String\",\n    \"name\":\"String\",\n    \"abbreviation\":\"String\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/states/update",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"states",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete state",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Api token",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/states/delete/id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"states",
+								"delete",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
