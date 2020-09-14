@@ -51,11 +51,6 @@ Nas rotas **POST** e **PUT** os parâmetros são passados no  *body*.
 |  | | **abbreviation:** *String*  |
 | `DELETE` | cities/update | **id:** String `*` | Deleta um estado.
 
-
- >Assim que recebemos a sua requisição, Nós integramos com a **Contraktor**
- >Criamos entâo um novo contrato, associando as duas partes a ele ( Empresa / Advogado )
- >E entâo mandamos um email com o documento para ambas as partes assinarem.
-
  ## Api criada utilizando os seguintes princípios:
  >DRY: "Don’t Repeat Yourself".
  >KISS: "Keep It Simple,Stupid"
