@@ -1,0 +1,30 @@
+{
+  "name": "desafio-zoox",
+  "version": "1.0.0",
+  "description": "Desafio zoox - Restfull api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "status": "node --version && npm --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wassupandre/desafio-zoox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wassupandre/desafio-zoox/issues"
+  },
+  "homepage": "https://github.com/wassupandre/desafio-zoox#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  }
+}
